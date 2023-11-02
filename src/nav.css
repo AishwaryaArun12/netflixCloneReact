@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;0,600;1,500&family=Poppins:wght@100&display=swap');
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px; 
+}
+#scrollDiv{
+    overflow-x: scroll;
+        
+  white-space: nowrap;  /* Prevent text wrapping*/
+   scrollbar-width: thin; 
+   
+} 
+#scrollDiv::-webkit-scrollbar{
+    display: none;
+}
+.scroll-container {
+    display: flex;
+    width: auto; /* Set the container width to 'auto' to fit its content */
+  }
+  
+  .scroll-item {
+    width: 200px; /* Set the width of each item */
+    height: 220px;
+    margin-right: 3px; /* Optional: Add margin between items */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+#nav {
+    height: 60px;
+    font-size: small;
+    font-weight: 600;
+    position: fixed;
+    z-index: 101;
+    background-image: linear-gradient(black 8%, transparent);
+    width: 100%;
+}
+#navlink{
+    margin-left: 200px;
+}
+#row{
+    background-color: black;
+}
+.dropdown-toggle::after {
+    border-top-color: white; /* Change the border color to white */
+  }
+#banner{
+    position: relative;
+    top: 0;
+   
+    z-index: 100;
+}
+#nlogo{
+    padding-top: 200px;
+    padding-left: 50px;
+}
+#series{
+    letter-spacing: 3px;
+    font-family:'Josefin Sans', sans-serif;
+}
